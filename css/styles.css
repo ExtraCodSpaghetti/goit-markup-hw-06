@@ -54,3 +54,26 @@
   .address .li:focus {
     color: #404bbf;
   }
+  .nav-links{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;   
+  }
+  .nav-links :hover,
+  .nav-links :focus{
+    color: #404bbf;
+  }
+ address{
+    font-style: normal;   
+ }
+ .contact-item{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;   
+ }
+ .contact-item :hover,
+ .contact-item :focus{
+    color: #404bbf;
+ }
