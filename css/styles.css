@@ -36,6 +36,9 @@
 
       color: #2e2f42;
   }
+  .sec-logo-end{
+    color: #f4f4fd;
+  }
 
   address{
     font-style: normal; 
@@ -139,5 +142,9 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
  }
+.foter-descr{
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
