@@ -124,4 +124,20 @@
     text-transform: capitalize;
     color: #2e2f42;
  }
- 
+ .team-item{
+    background-color: #FFFFFF; 
+ }
+ .portfolio-caption{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+ }
+ .portfolio-descr{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+ }
