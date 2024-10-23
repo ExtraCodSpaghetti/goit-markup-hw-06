@@ -1,5 +1,5 @@
    body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #ffffff;
     color: #434455;
   }
@@ -76,4 +76,7 @@
  .contact-item :hover,
  .contact-item :focus{
     color: #404bbf;
+ }
+ .hero{
+    background-color: #2e2f42;
  }
