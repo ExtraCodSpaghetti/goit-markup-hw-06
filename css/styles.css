@@ -63,11 +63,11 @@
     letter-spacing: 0.02em;
     color: #2e2f42;   
   }
-  .link:hover,
-  .link:focus{
+  .nav-links:hover,
+  .nav-links:focus{
     color: #404bbf;
   }
-  .link{
+  .nav-links{
    color: #2e2f42;
   }
  address{
