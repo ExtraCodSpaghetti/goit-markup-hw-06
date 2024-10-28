@@ -473,3 +473,48 @@
       clip: rect(0 0 0 0);
       overflow: hidden;
    }
+   .foter-descr-soc{
+      margin-bottom: 16px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+   }
+   
+   .soc-list-end{
+      display: flex;
+      gap: 16px;
+   }
+
+   .soc-link-end{
+      width: 40px;
+      height: 40px;
+      background-color: #4D5AE5;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .soc-icon-end{
+      fill: #F4F4FD;
+      width: 24px;
+      height: 24px;
+   }
+
+   .div-footer {
+      display: flex;
+      align-items: baseline;
+   }
+
+   .container .container-footer {
+       margin-right: 120px;
+   }
+
+   .soc-link:hover,
+   .soc-link:focus,
+   .soc-link-end:hover,
+   .soc-link-end:focus{
+      background-color: #404bbf;
+   }
