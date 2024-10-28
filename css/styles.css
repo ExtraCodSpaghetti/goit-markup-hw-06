@@ -318,6 +318,11 @@
 
    .team-name {
       padding: 32px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 8px;
    }
 
    .team-caption {
@@ -341,7 +346,6 @@
       display: flex;
       justify-content: center;
       gap: 24px;
-      padding: 32px 0;
    }
 
    .soc-link{
@@ -354,7 +358,7 @@
       justify-content: center;
    }
    .soc-icon{
-      fill: #ffffff;
+      fill: #F4F4FD;
       width: 16px;
       height: 16px;
    }
