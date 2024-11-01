@@ -555,5 +555,93 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-open" type="button" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-container">
+            <label class="form-lable" for="name">Name</label>
+            <div class="input-container">
+              <input
+                type="text"
+                class="input-area"
+                id="name"
+                name="name"
+                required
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-container">
+            <label class="form-lable" for="phone">Phone</label>
+            <div class="input-container">
+              <input
+                type="tel"
+                class="input-area"
+                id="phone"
+                name="phone"
+                required
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-container">
+            <label class="form-lable" for="email">Email</label>
+            <div class="input-container">
+              <input
+                type="email"
+                class="input-area"
+                id="email"
+                name="email"
+                required
+              />
+              <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="text-container">
+            <label class="form-lable" for="comment">Comment</label>
+            <textarea
+              class="text-area"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="checkbox-container">
+            <input
+              class="checkbox visually-hidden"
+              id="privacy"
+              type="checkbox"
+              value="true"
+              name="privacy"
+              required
+            />
+
+            <label class="privacy-lable" for="privacy">
+              <span class="privacy-span">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-accept"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
