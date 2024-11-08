@@ -1108,8 +1108,6 @@ section.benefits {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: flex-start;
-    margin-left: 108px;
 
     padding: 0;
     row-gap: 72px;
@@ -1374,7 +1372,6 @@ section.benefits {
     margin: 0 auto;
 
     padding: 0 15px;
-    gap: 0;
   }
 
   .container-footer {
